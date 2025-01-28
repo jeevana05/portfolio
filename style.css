@@ -314,96 +314,44 @@ section {
   margin: auto 0;
 }
 
-/* SKILLS SECTION */
-
-#skills {
-  padding: 4rem 2rem;
-  background-color: #f9f9f9; /* Subtle background for distinction */
-}
-
-#skills .section-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 2rem;
-}
-
-#skills .details-container {
-  flex: 1 1 calc(33% - 1rem); /* Three cards in a row */
-  background: white;
-  padding: 1.5rem;
-  border-radius: 1rem;
-  border: 1px solid #ddd;
-  text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-#skills .details-container:hover {
-  transform: translateY(-5px); /* Subtle hover effect */
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
-}
-
-#skills .details-container h3 {
-  font-size: 1.5rem;
-  color: #333;
-  margin-bottom: 1rem;
-}
-
-#skills .details-container ul {
-  list-style: none;
-  padding: 0;
-}
-
-#skills .details-container ul li {
-  font-size: 1rem;
-  color: #555;
-  margin-bottom: 0.5rem;
-}
-
 /* EXPERIENCE SECTION */
 
 #experience {
-  padding: 4rem 2rem;
-  background-color: #ffffff; /* Matches default section background */
+  position: relative;
 }
 
-#experience .section-container {
+.experience-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container {
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  gap: 2rem;
 }
 
-#experience .details-container {
-  background: #ffffff;
-  padding: 1.5rem;
-  border-radius: 1rem;
-  border: 1px solid #ddd;
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05); /* Light shadow for cards */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
 }
 
-#experience .details-container:hover {
-  transform: translateY(-5px); /* Subtle hover effect */
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+article {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 0.5rem;
 }
 
-#experience .details-container h3 {
-  font-size: 1.5rem;
-  color: #333;
-  margin-bottom: 1rem;
+article .icon {
+  cursor: default;
 }
-
-#experience .details-container ul {
-  list-style: disc;
-  padding-left: 1.5rem;
-}
-
-#experience .details-container ul li {
-  font-size: 1rem;
-  color: #555;
-  margin-bottom: 0.5rem;
-}
-
 
 /* PROJECTS SECTION */
 
